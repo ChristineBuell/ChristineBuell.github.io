@@ -1,3 +1,30 @@
 body{
 	background: #B3E7E4;
+} 
+a:link {
+	color: red;
+	text-decoration: none;
+
+}
+a:visited{
+	color: green;
+}
+#icelandic_shop {
+	width: 600px;
+	height: 450px;
+	padding: 20px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 0;
+}
+table {
+	background-color: #ffe3f3;
+	font-family: Verdana;
+	padding: 5px;
+
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
 }
