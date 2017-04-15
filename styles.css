@@ -1,0 +1,92 @@
+body{
+	background: #fffff2;
+	padding: 10px;
+	font-family: Times, serif;
+	max-width: 900px;
+	margin: 0 auto;
+} 
+a:link {
+	color: #0000cd;
+	text-decoration: none;
+
+}
+a:visited{
+	color: #ba55d3;
+}
+.sweater{
+	max-width: 900px;
+	
+}
+
+.icelandic_shop{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+
+	
+
+}
+#photo_header{
+	text-align: center;
+}
+
+#sweater_photo {
+	width: 600px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	
+		
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	font-size: 95%;
+}
+h3{
+	font-size: 80%;
+}
+	
+ 
+ table{
+ 	border-collapse: collapse;
+ }
+	
+    table, th, td{
+	border: 1px solid black;
+	padding: 5px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #F9EFDA;
+	
+
+}
+.needle_page{
+	background-image: url("images/knitting250px.png");
+	background-repeat: repeat;
+}
+
+.needles {
+	width: 500px; 
+	margin: 0 auto;
+	position: relative;
+}
+#note{
+	font-style: italic;
+	font-size: 75%;
+	
+}
+
+@media screen and (max-width: 600px) {
+	
+  #sweater_photo{
+  	width: 60%;
+  	height: 60%;
+  	
+
+  }
+  
+}
